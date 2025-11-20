@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./css/responsive.css">
 
-      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
@@ -15,138 +16,195 @@
 
     <title>Spotify Web App</title>
 </head>
+
 <body>
     <main>
         <div id="wrapper">
 
-        <div class="container-1">
+            <div class="container-1">
 
-            <div class="left">
-                <div class="logo">
-                    <img src="/img/logo.svg" alt="logo spotify">
+                <div class="left">
+                    <div class="logo">
+                        <img src="/img/logo.svg" alt="logo spotify">
+                    </div>
+                    <div class="top-container">
+                        <a href=""><img class="home-img" src="./img/home.svg" alt="home">
+                            <h5>Home</h5>
+                        </a>
+                        <a href=""><img class="home-img" src="./img/search.svg" alt="Cerca">
+                            <h5>Cerca</h5>
+                        </a>
+                        <a href=""><img class="home-img" src="./img/libreria.svg" alt="Libreria">
+                            <h5>La tua libreria</h5>
+                        </a>
+                    </div>
+                    <h3 class="playlist-title">PLAYLIST</h3>
+                    <div class="playlist-container">
+                        <a href="#">
+                            <p> <i class="fa-solid fa-plus"></i> Crea Playlist</p>
+                        </a>
+                        <div class="name-container">
+                            <a class="playlist-name" href="">Nome Playlist</a>
+                            <a class="playlist-name" href="">Nome Playlist</a>
+                            <a class="playlist-name" href="">Nome Playlist</a>
+                            <a class="playlist-name" href="">Nome Playlist</a>
+                            <a class="playlist-name" href="">Nome Playlist</a>
+                            <a class="playlist-name" href="">Nome Playlist</a>
+                            <a class="playlist-name" href="">Nome Playlist</a>
+                        </div>
+                    </div>
+                    <div class="download-container">
+                        <a href=""><img class="download-img" src="./img/download.svg" alt="download">
+                            <h5>Installa app</h5>
+                        </a>
+                        <a href=""><img class="profile-img" src="./img/profile.svg" alt="profile">
+                            <p class="john">John Doe</p>
+                        </a>
+                    </div>
+
+
+
                 </div>
-                 <div class="top-container">
-                <a href=""><img class="home-img" src="./img/home.svg" alt="home">
-                    <h5>Home</h5>
-                </a>
-                <a href=""><img class="home-img" src="./img/search.svg" alt="Cerca">
-                    <h5>Cerca</h5>
-                </a>
-                <a href=""><img class="home-img" src="./img/libreria.svg" alt="Libreria">
-                    <h5>La tua libreria</h5>
-                </a>
+
+                <div class="right">
+
+                    <nav class="upgrade">
+                        <a href="#" class="btn">Effettua l'upgrade</a>
+                    </nav>
+
+                    <div class="scroll-section">
+                        <div class="nav-section">
+
+                            <ul id="lista-section">
+                                <li><a href="#">IN EVIDENZA</a></li>
+                                <li><a href="#">PODCAST</a></li>
+                                <li><a href="#">CLASSIFICHE</a></li>
+                                <li><a href="#">GENERE E MODO</a></li>
+                                <li><a href="#">NUOVE USCITE</a></li>
+                                <li><a href="#">SCOPRI</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="title">
+                            <h2>Recently played</h2>
+                        </div>
+
+                        <div class="card-container">
+
+                            <div class="card">
+                                <img src="./img/sinister.jpeg" alt="Sinister">
+                            </div>
+
+                            <div class="card">
+                                <img src="./img/sinister.jpeg" alt="Sinister">
+                            </div>
+
+                            <div class="card">
+                                <img src="./img/sinister.jpeg" alt="Sinister">
+                            </div>
+
+                            <div class="card">
+                                <img src="./img/sinister.jpeg" alt="Sinister">
+                            </div>
+
+                            <div class="card">
+                                <img src="./img/sinister.jpeg" alt="Sinister">
+                            </div>
+
+                            <div class="card">
+                                <img src="./img/sinister.jpeg" alt="Sinister">
+                            </div>
+
+                        </div>
+
+                        <div class="title">
+
+                            <h2>Recently played</h2>
+                            <h6>Più ascolti, più accurati saranno i suggerimenti</h6>
+
+                        </div>
+
+                        <div class="card-container">
+
+                            <div class="card">
+                                <img src="./img/sinister.jpeg" alt="Sinister">
+
+                            </div>
+
+                            <div class="card">
+                                <img src="./img/sinister.jpeg" alt="Sinister">
+                            </div>
+
+                        </div>
+
+                        <div class="title">
+
+                            <h2>Recently played</h2>
+                            <h6>Più ascolti, più accurati saranno i suggerimenti</h6>
+
+                        </div>
+
+                        <div class="card-container">
+
+                            <div class="card">
+                                <img src="./img/sinister.jpeg" alt="Sinister">
+                            </div>
+
+                            <div class="card">
+                                <img src="./img/sinister.jpeg" alt="Sinister">
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
             </div>
-            <h3 class="playlist-title">PLAYLIST</h3>
-            <div class="playlist-container">
-                <a href="#">
-                    <p> <i class="fa-solid fa-plus"></i> Crea Playlist</p>
-                </a>
-                <div class="name-container">
-                    <a class="playlist-name" href="">Nome Playlist</a>
-                    <a class="playlist-name" href="">Nome Playlist</a>
-                    <a class="playlist-name" href="">Nome Playlist</a>
-                    <a class="playlist-name" href="">Nome Playlist</a>
-                    <a class="playlist-name" href="">Nome Playlist</a>
-                    <a class="playlist-name" href="">Nome Playlist</a>
-                    <a class="playlist-name" href="">Nome Playlist</a>
-                </div>
-            </div>
-            <div class="download-container">
-                <a href=""><img class="download-img" src="./img/download.svg" alt="download">
-                    <h5>Installa app</h5>
-                </a>
-                <a href=""><img class="profile-img" src="./img/profile.svg" alt="profile">
-                    <p class="john">John Doe</p>
-                </a>
-            </div>
-               
 
 
-            </div>
 
-            <div class="right">
+            <div class="container-2">
 
-                 <nav class="upgrade">
-                    <a href="#" class="btn">Effettua l'upgrade</a>
-                 </nav>
-                <div class="nav-section">
-                    <ul id="lista-section">
-                        <li><a href="#">IN EVIDENZA</a></li>
-                        <li><a href="#">PODCAST</a></li>
-                        <li><a href="#">CLASSIFICHE</a></li>
-                        <li><a href="#">GENERE E MODO</a></li>
-                        <li><a href="#">NUOVE USCITE</a></li>
-                        <li><a href="#">SCOPRI</a></li>
-                    </ul>
-                </div>
-                <div class="title">
-                    <h2>Recently played</h2>
-                </div>
-                <div class="card-container">
-                    <div class="card">
-                        <img src="./img/sinister.jpeg" alt="Sinister">
+                <div class="playing-now">
+                    <img src="./img/sinister.jpeg" alt="sinister">
+                    <div>
+                        <h5>Sinister</h5>
+                        <h6>Brano Nome</h6>
                     </div>
-                    <div class="card">
-                         <img src="./img/sinister.jpeg" alt="Sinister">
+                    <i class="fa-regular fa-heart"></i><i class="fa-regular fa-folder"></i>
+                </div>
 
-                    </div>
-                    <div class="card">
-                         <img src="./img/sinister.jpeg" alt="Sinister">
-                    </div>
-                    <div class="card">
-                         <img src="./img/sinister.jpeg" alt="Sinister">
-                    </div>
-                    <div class="card">
-                         <img src="./img/sinister.jpeg" alt="Sinister">
-                    </div>
-                    <div class="card">
-                         <img src="./img/sinister.jpeg" alt="Sinister">
-                    </div>
-               </div>
-                    <div class="title">
-                    <h2>Recently played</h2>
-                    <h6>Più ascolti, più accurati saranno i suggerimenti</h6>
-                </div>
-                 <div class="card-container">
-                    <div class="card">
-                        <img src="./img/sinister.jpeg" alt="Sinister">
-                    </div>
-                    <div class="card">
-                        <img src="./img/sinister.jpeg" alt="Sinister">
-                    </div>
-                </div>
-                    <div class="title">
-                    <h2>Recently played</h2>
-                    <h6>Più ascolti, più accurati saranno i suggerimenti</h6>
-                    </div> 
-                     <div class="card-container">
-                    <div class="card">
-                        <img src="./img/sinister.jpeg" alt="Sinister">
-                    </div>
-                    <div class="card">
-                        <img src="./img/sinister.jpeg" alt="Sinister">
-                    </div>
-                </div>
-                
-                
+                <div class="reproduction-bar">
+                    <div class="controls">
 
+                        <span><i class="fa-solid fa-shuffle"></i></span>
+                        <span><i class="fa-solid fa-angle-left"></i></span>
+                        <span><i class="fa-regular fa-circle-play"></i></span>
+                        <span><i class="fa-solid fa-angle-right"></i></span>
+                        <span><i class="fa-solid fa-arrow-rotate-right"></i></span>
+                    </div>
+                    
+                    <div class="progress">
+                      
+                    </div>
+                </div>
+
+                <div class="volume-bar">
+                <div class="controls">
+
+                <span><i class="fa-solid fa-list"></i></span>
+                <span><i class="fa-solid fa-display"></i></span>
+                <span><i class="fa-solid fa-volume-high"></i></span>
+                </div>
+
+                <div class="progress">
+                      
+                </div>
 
             </div>
-
-        </div>
-
-        
-
-        <div class="container-2">
-
-            <div></div>
-            <div></div>
-            <div></div>
-
-        </div>
 
         </div>
     </main>
-    
+
 </body>
+
 </html>
