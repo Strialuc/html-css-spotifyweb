@@ -71,6 +71,17 @@ div.top-container a {
     gap: 5px;
 }
 
+.top-container a:hover {
+    color: white;
+}
+
+.playlist-container a:hover {
+    color: white;
+}
+
+
+
+
 .home-img {
     width: 25px;
 }
@@ -163,6 +174,11 @@ div.download-container a {
 
 }
 
+.btn:hover {
+    font-size: 20px;
+
+}
+
 .nav-section {
     padding-top: 20px;
 }
@@ -178,7 +194,12 @@ div.download-container a {
 }
 
 #lista-section a {
+    color:#b3b3b3;
+}
+
+#lista-section a:hover {
     color: white;
+    
 }
 
 .scroll-section {
@@ -205,11 +226,35 @@ div.download-container a {
 
 .card {
     width: calc(100% / 6 - (40px / 3));
+    position: relative;
 }
 
-.card img {
-    width: 150px;
+.card img{
+    display: block;
+    height: auto;
+
 }
+
+.centro{
+    position: absolute;
+    background-color: #7d7d7d;
+    font-size: 50px;
+    opacity: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.card:hover .centro{
+    opacity:1;
+
+}
+
+.card-circle img{
+    border-radius: 70px;
+}
+
 
 .container-2 {
 
@@ -217,7 +262,6 @@ div.download-container a {
     justify-content: space-between;
     align-items: center;
     background-color: #181818;
-    /* colore player Spotify */
     height: 100px;
     padding: 0 20px;
     position: fixed;
