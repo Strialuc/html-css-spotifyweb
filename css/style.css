@@ -56,6 +56,14 @@ img {
 
 }
 
+.logo-small {
+  display: none;
+}
+
+.logo-small img {
+    width: 60%;
+}
+
 .top-container {
     padding: 20px 0 0 20px;
     display: flex;
